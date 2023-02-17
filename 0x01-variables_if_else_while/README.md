@@ -1,1 +1,1 @@
-Prints combinations
+Prints combo
