@@ -1,1 +1,1 @@
-Prints base 16
+Prints combinations
