@@ -1,20 +1,19 @@
 #include "main.h"
-
 /**
  * main - Entry point
- * Description: print _putchar follwed by a new line
- * Return: 0 (success)
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char *sh = "main.h";
+
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
 	_putchar('\n');
+
 	return (0);
 }
